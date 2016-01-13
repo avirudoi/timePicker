@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">timepicker</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!--actionBar string-->
+
+    <string name="edit_feed"> Edit feed</string>
+    <!--End actionBar string-->
+
+        <!--main activity layout string-->
+    <string name="name">NAME</string>
+    <string name="time">TIME</string>
+    <string name="portion">PORTION</string>
+    <string name="recommended">RECOMMENDED</string>
+    <string name="based_on"><data><![CDATA[Based on age, weight<br/>and activity level]]></data></string>
+    <string name="first_number"><data><![CDATA[<font size="10">1</font><font size="8">1</font><font size="10">/</font><font size="5">16</font>]]></data></string>
+    <string name="auto_feed">AUTO FEED</string>
+    <string name="save">SAVE</string>
+
+    <!--End main activity layout string-->
+
+
+</resources>

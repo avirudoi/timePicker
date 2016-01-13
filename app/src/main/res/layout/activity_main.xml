@@ -1,0 +1,122 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/MainVerticalLinearLayout"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="@style/MainToolBar"
+        android:contentInsetStart="0dp"
+        android:contentInsetLeft="0dp"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp" />
+
+    <LinearLayout
+        style="@style/LinearLayoutTop">
+
+        <TextView
+            style="@style/TextViewName"/>
+
+        <EditText
+            android:id="@+id/etName"
+            style="@style/EditViewName" />
+
+    </LinearLayout>
+
+    <View
+        style="@style/ViewFirst"/>
+
+    <FrameLayout
+        style="@style/FrameLayoutFirst">
+
+        <TimePicker
+            android:id="@+id/timePicker"
+            style="@style/TimePickerStyle"/>
+
+    <LinearLayout
+        style="@style/LinearLayoutVertical">
+
+    <LinearLayout
+        style="@style/LinearLayoutHorizontal">
+
+        <TextView
+            style="@style/TextViewTime"/>
+
+        <LinearLayout
+            style="@style/LinearLayoutHorizontalCe">
+
+            <ImageView
+                android:id="@+id/ivArrow"
+                style="@style/ImageViewFirst"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llHideInformation"
+        style="@style/LinearLayoutVerticalSe">
+
+        <TextView
+            style="@style/TextViewPortion"/>
+
+        <LinearLayout
+            style="@style/LinearLayoutHorizontalTh">
+
+            <TextView
+                android:id="@+id/tvFirstNumber"
+                style="@style/TextView1"/>
+
+            <TextView
+                style="@style/TextView2"/>
+
+            <TextView
+                style="@style/TextView3"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LinearLayoutVerticalTh">
+
+            <TextView
+                style="@style/TextViewRecommended"/>
+
+            <TextView
+                android:id="@+id/tvBasedOn"
+                style="@style/TextViewBasedOn"/>
+
+        </LinearLayout>
+
+        <View
+            style="@style/ViewSec"/>
+
+        <LinearLayout
+            style="@style/LinearLayoutHorizontalFu">
+
+            <TextView
+                style="@style/TextViewAutoFeed"/>
+
+            <Switch
+                style="@style/Switch"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        style="@style/LinearLayoutVerticalFi">
+
+        <View
+            style="@style/ViewTh"/>
+
+    <Button
+        style="@style/Button"/>
+
+</LinearLayout>
+
+</LinearLayout>

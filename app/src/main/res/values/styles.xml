@@ -1,0 +1,294 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/app_primary_color</item>
+
+        <item name="colorAccent">@color/app_primary_color</item>
+
+        <item name="colorControlNormal">@color/app_primary_color</item>
+
+        <item name="colorSwitchThumbNormal">@color/app_primary_color</item>
+
+        <item name="colorControlActivated">@color/app_primary_color</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="TimePickerStyle" parent="@android:style/Theme.Holo">
+        <item name="android:actionMenuTextColor">@color/app_primary_color</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <!-- ActionBar-->
+
+    <style name="MainRealativeLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">fill_horizontal</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="MainHorizontalLinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="MainFrameLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="ImageViewArrow">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/margin_main</item>
+        <item name="android:src">@mipmap/ic_action_arrow</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="TextViewEditFeed">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">@dimen/mid_test_size</item>
+        <item name="android:textColor">@color/action_gray_color</item>
+        <item name="android:text">@string/edit_feed</item>
+    </style>
+
+    <style name="LinearLayoutActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">right</item>
+    </style>
+
+    <style name="ImageViewTrash">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">@dimen/margin_main</item>
+        <item name="android:src">@mipmap/ic_action_trash</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+
+    <!-- End ActionBar-->
+
+   <!-- main activity layout style-->
+    <style name="MainVerticalLinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:paddingBottom">@dimen/activity_vertical_margin</item>
+    </style>
+
+    <style name="MainToolBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:background">@color/action_bar_color</item>
+    </style>
+
+    <style name="LinearLayoutTop">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_margin">@dimen/margin_main</item>
+    </style>
+
+    <style name="TextViewName">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/name</item>
+    </style>
+
+    <style name="EditViewName">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="ViewFirst">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/view_height</item>
+        <item name="android:background">@color/gray_light</item>
+    </style>
+
+    <style name="FrameLayoutFirst">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="LinearLayoutVertical">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="LinearLayoutHorizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginBottom">@dimen/margin_tb</item>
+        <item name="android:layout_marginTop">@dimen/margin_tb</item>
+    </style>
+
+    <style name="TextViewTime">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/margin_main</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:text">@string/time</item>
+    </style>
+
+    <style name="LinearLayoutHorizontalCe">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_marginTop">@dimen/margin_tb</item>
+    </style>
+
+    <style name="ImageViewFirst">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/margin_main</item>
+        <item name="android:src">@mipmap/ic_action_arrow_up</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="LinearLayoutVerticalSe">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="TextViewPortion">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/margin_main</item>
+        <item name="android:paddingTop">@dimen/margin_main</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:text">@string/portion</item>
+    </style>
+
+    <style name="LinearLayoutHorizontalTh">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="TextView1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">1 1/16</item>
+    </style>
+
+    <style name="TextView2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/margin_main</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">1 1/16</item>
+        <item name="android:textColor">@color/light_green</item>
+        <item name="android:background">@drawable/circular_background</item>
+        <item name="android:layout_margin">@dimen/margin_tb</item>
+        <item name="android:padding">@dimen/margin_middle</item>
+    </style>
+
+    <style name="TextView3">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">1 1/16</item>
+    </style>
+
+    <style name="LinearLayoutVerticalTh">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="TextViewRecommended">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/light_green</item>
+        <item name="android:text">@string/recommended</item>
+    </style>
+
+    <style name="TextViewBasedOn">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/based_on</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="ViewSec">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/view_height</item>
+        <item name="android:background">@color/gray_light</item>
+        <item name="android:layout_marginTop">@dimen/margin_main</item>
+        <item name="android:layout_marginBottom">@dimen/margin_main</item>
+    </style>
+
+    <style name="LinearLayoutHorizontalFu">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:weightSum">100</item>
+        <item name="android:paddingBottom">@dimen/margin_tb</item>
+    </style>
+
+    <style name="TextViewAutoFeed">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/margin_main</item>
+        <item name="android:layout_weight">50</item>
+        <item name="android:text">@string/auto_feed</item>
+    </style>
+
+    <style name="Switch">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_marginRight">@dimen/margin_main</item>
+        <item name="android:layout_weight">50</item>
+    </style>
+
+    <style name="LinearLayoutVerticalFi">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="ViewTh">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/view_height</item>
+        <item name="android:background">@color/gray_light</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/app_primary_color</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:text">@string/save</item>
+        <item name="android:layout_marginTop">@dimen/margin_middle</item>
+        <item name="android:layout_marginRight">@dimen/margin_main</item>
+        <item name="android:layout_marginLeft">@dimen/margin_main</item>
+    </style>
+    <!-- End main activity layout style-->
+
+
+
+</resources>
